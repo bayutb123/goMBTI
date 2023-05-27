@@ -7,7 +7,7 @@
     <item
         android:id="@+id/personality"
         android:icon="@drawable/baseline_recommend_24"
-        android:title="Personality" />
+        android:title="Recommendation" />
     <item
         android:id="@+id/account"
         android:icon="@drawable/baseline_account_circle_24"

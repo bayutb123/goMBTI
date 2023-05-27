@@ -56,7 +56,7 @@
                 android:textColor="?attr/colorOnError"
                 android:backgroundTint="?attr/colorError"
                 android:textSize="15sp"
-                android:text="Logout" />
+                android:text="Keluar" />
 
 
         </com.google.android.material.circularreveal.CircularRevealLinearLayout>

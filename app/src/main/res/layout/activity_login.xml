@@ -10,7 +10,7 @@
         android:id="@+id/welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome!"
+        android:text="Selamat Datang!"
         android:textColor="?attr/colorPrimary"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Let's Login First"
+        android:text="Ayo Login Dulu"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/circularRevealLinearLayout"
@@ -47,7 +47,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Email Address"
+                android:hint="Alamat email"
                 android:drawableStart="@drawable/baseline_email_24"
                 android:drawablePadding="8dp"
                 android:inputType="text"
@@ -62,7 +62,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Password"
+                android:hint="Kata sandi"
                 android:drawableStart="@drawable/baseline_key_24"
                 android:drawablePadding="8dp"
                 android:inputType="textPassword"
@@ -77,7 +77,7 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="8dp"
             android:height="50dp"
-            android:text="Login"
+            android:text="Masuk"
             app:cornerRadius="8dp" />
 
 
@@ -96,7 +96,7 @@
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Not have an account yet?"
+            android:text="Belum punya akun?"
             android:layout_weight="1"/>
 
         <com.google.android.material.button.MaterialButton
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:height="50dp"
             android:drawableEnd="@drawable/baseline_arrow_right_alt_24"
-            android:text="Register"
+            android:text="Daftar"
             android:textColor="?attr/colorPrimary"
             android:backgroundTint="?attr/colorSurface"
             app:cornerRadius="8dp" />

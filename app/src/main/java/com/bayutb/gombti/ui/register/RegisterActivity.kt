@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bayutb.gombti.databinding.ActivityRegisterBinding
 import com.bayutb.gombti.ui.login.LoginActivity
+import com.bayutb.gombti.ui.mbti.MbtiActivity
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -47,6 +48,11 @@ class RegisterActivity : AppCompatActivity() {
                     startActivity(it)
                 }
                 finish()
+            }
+            btnRegister.setOnClickListener {
+                Intent(this@RegisterActivity, MbtiActivity::class.java).also {
+                    startActivity(it)
+                }
             }
         }
     }

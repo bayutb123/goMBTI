@@ -36,7 +36,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Full Name"
+                android:hint="Nama lengkap"
                 android:drawableStart="@drawable/baseline_account_circle_24"
                 android:drawablePadding="8dp"
                 android:inputType="text"
@@ -51,7 +51,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Email Address"
+                android:hint="Alamat email"
                 android:drawableStart="@drawable/baseline_email_24"
                 android:drawablePadding="8dp"
                 android:inputType="text"
@@ -66,7 +66,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Password"
+                android:hint="Kata sandi"
                 android:inputType="textPassword"
                 android:drawableStart="@drawable/baseline_key_24"
                 android:drawablePadding="8dp"
@@ -81,7 +81,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Re-Type Password"
+                android:hint="Ketik ulang kata sandi"
                 android:drawableStart="@drawable/baseline_key_24"
                 android:drawablePadding="8dp"
                 android:inputType="textPassword"
@@ -98,12 +98,12 @@
             <com.google.android.material.radiobutton.MaterialRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Male" />
+                android:text="Laki-laki" />
 
             <com.google.android.material.radiobutton.MaterialRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Female" />
+                android:text="Perempuan" />
 
         </RadioGroup>
 
@@ -118,18 +118,19 @@
                 android:layout_height="match_parent"
                 android:drawableEnd="@drawable/baseline_date_range_24"
                 android:drawablePadding="8dp"
-                android:hint="Birth Date"
+                android:hint="Tanggal lahir"
                 android:inputType="datetime"
                 android:maxLines="1" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="8dp"
             android:height="50dp"
-            android:text="Register"
+            android:text="Daftar"
             app:cornerRadius="8dp" />
 
 
@@ -148,16 +149,16 @@
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Already have an Account?"
+            android:text="Sudah memiliki akun?"
             android:layout_weight="1"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/go_login"
-            android:layout_width="120dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:height="50dp"
             android:drawableEnd="@drawable/baseline_arrow_right_alt_24"
-            android:text="Login"
+            android:text="Masuk"
             android:textColor="?attr/colorPrimary"
             android:backgroundTint="?attr/colorSurface"
             app:cornerRadius="8dp" />
